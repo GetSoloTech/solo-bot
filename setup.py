@@ -67,7 +67,6 @@ def read_long_description() -> str:
 
 setup(
     name="lerobot",
-    version=get_version_from_toml(),
     long_description=read_long_description(),
     long_description_content_type="text/markdown",
 )
