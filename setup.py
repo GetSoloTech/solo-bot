@@ -65,8 +65,8 @@ def read_long_description() -> str:
 
     return content
 
-
 setup(
+    name="lerobot",
     long_description=read_long_description(),
     long_description_content_type="text/markdown",
 )
